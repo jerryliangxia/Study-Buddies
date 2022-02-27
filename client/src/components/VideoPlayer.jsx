@@ -35,7 +35,7 @@ const VideoPlayer = () => {
         <Paper className={classes.paper}>
           <Grid item xs={12} md={6}>
             <Typography variant="h5" gutterBottom>
-              {name || "Name"}
+              {name || "name"}
             </Typography>
             <video
               playsInline
@@ -51,7 +51,7 @@ const VideoPlayer = () => {
         <Paper className={classes.paper}>
           <Grid item xs={12} md={6}>
             <Typography variant="h5" gutterBottom>
-              {call.name || "Name"}
+              {call.name || "name"}
             </Typography>
             <video
               playsInline

@@ -40,7 +40,6 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     padding: "10px 20px",
-    border: "2px solid black",
   },
 }));
 
@@ -57,11 +56,11 @@ const Options = ({ children }) => {
           <Grid container className={classes.gridContainer}>
             <Grid item xs={12} md={6} className={classes.padding}>
               <Typography gutterBottom variant="h6">
-                Account Info
+                account info
               </Typography>
               <TextField
                 fullWidth
-                label="Name"
+                label="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -72,18 +71,18 @@ const Options = ({ children }) => {
                   fullWidth
                   startIcon={<Assignment fontSize="large" />}
                 >
-                  Copy Your ID
+                  copy your id
                 </Button>
               </CopyToClipboard>
             </Grid>
 
             <Grid item xs={12} md={6} className={classes.padding}>
               <Typography gutterBottom variant="h6">
-                Make a call
+                make a call
               </Typography>
               <TextField
                 fullWidth
-                label="ID to Call"
+                label="ID to call"
                 value={idToCall}
                 onChange={(e) => setIdToCall(e.target.value)}
               />
@@ -96,7 +95,7 @@ const Options = ({ children }) => {
                   startIcon={<PhoneDisabled fontSize="large" />}
                   className={classes.margin}
                 >
-                  Hang Up
+                  hang up
                 </Button>
               ) : (
                 <Button
@@ -107,7 +106,7 @@ const Options = ({ children }) => {
                   onClick={() => callUser(idToCall)}
                   className={classes.margin}
                 >
-                  Call
+                  call
                 </Button>
               )}
             </Grid>
