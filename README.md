@@ -1,9 +1,9 @@
-# studywithme
+# studii
 
 This site is deployed [here](https://hungry-kepler-8a7e8c.netlify.app/).
 
 
-https://user-images.githubusercontent.com/60997074/155868555-19f0d3f4-0631-4fb9-9ed3-a5cfea2f14a8.mov
+https://user-images.githubusercontent.com/60997074/155888342-e3d46250-4ba2-45f2-ab41-be048bd8db7f.mov
 
 
 This project was submitted for Codejam 2022.
