@@ -83,7 +83,7 @@ const Options = ({ children }) => {
               </Typography>
               <TextField
                 fullWidth
-                label="ID to call"
+                label="ID to Call"
                 value={idToCall}
                 onChange={(e) => setIdToCall(e.target.value)}
               />
@@ -113,8 +113,8 @@ const Options = ({ children }) => {
             </Grid>
           </Grid>
         </form>
+        {children}
       </Paper>
-      {children}
     </Container>
   );
 };
